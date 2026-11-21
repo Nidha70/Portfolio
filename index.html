@@ -1,36 +1,232 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Fathima Nidha | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fathima Nidha | Data Analyst</title>
+
+<style>
+•⁠  ⁠{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #243047;
+    line-height: 1.6;
+}
+
+nav {
+    background: #101d35;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #101d35, #234b83);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 19px;
+}
+
+.btn {
+    display: inline-block;
+    background: #38bdf8;
+    color: #101d35;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+section {
+    padding: 65px 10%;
+}
+
+h2 {
+    color: #173b70;
+    font-size: 30px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    color: #173b70;
+}
+
+.skills span {
+    display: inline-block;
+    background: #dceafe;
+    padding: 10px 18px;
+    margin: 7px;
+    border-radius: 20px;
+}
+
+footer {
+    background: #101d35;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    section {
+        padding: 45px 6%;
+    }
+}
+</style>
 </head>
 
 <body>
 
-    <h1>Fathima Nidha</h1>
+<nav>
+    <strong>Fathima Nidha</strong>
+    <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
 
-    <h2>Data Analyst Portfolio</h2>
+<div class="hero">
+    <h1>Hi, I'm Fathima Nidha</h1>
+    <h2 style="color:#38bdf8;">Data Analyst</h2>
+
+    <p>SQL | Python | Power BI | Excel | Tableau</p>
 
     <p>
-        Computer Science graduate skilled in
-        SQL, Python, Excel, Power BI and Tableau.
+        Transforming data into meaningful insights
+        to support better business decisions.
     </p>
 
+    <a href="#projects" class="btn">View My Projects</a>
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        I am a Computer Science graduate with practical
+        experience in data analysis, SQL, Python,
+        Power BI, Excel and Tableau.
+    </p>
+
+    <p>
+        I enjoy analysing datasets, identifying trends,
+        building dashboards and presenting insights
+        that help businesses make informed decisions.
+    </p>
+</section>
+
+<section id="projects">
     <h2>My Projects</h2>
 
-    <h3>Coca-Cola Sales Analysis</h3>
-    <p>Sales analysis and dashboard development.</p>
+    <div class="projects">
 
-    <h3>Credit Card Analysis</h3>
-    <p>Analysis of transaction and customer data.</p>
+        <div class="card">
+            <h3>Coca-Cola Sales Analysis</h3>
+            <p>
+                Analysed sales data and developed
+                dashboards to explore business performance.
+            </p>
+            <strong>Sales Analysis | Dashboard Development</strong>
+        </div>
 
-    <h3>Supply Chain Analysis</h3>
-    <p>Analysis of supply chain performance.</p>
+        <div class="card">
+            <h3>Credit Card Analysis</h3>
+            <p>
+                Explored transaction and customer data
+                to understand spending patterns.
+            </p>
+            <strong>Data Analysis | Reporting</strong>
+        </div>
 
+        <div class="card">
+            <h3>Supply Chain Analysis</h3>
+            <p>
+                Analysed supply chain data to explore
+                operational performance and trends.
+            </p>
+            <strong>Data Analysis | Business Insights</strong>
+        </div>
+
+    </div>
+</section>
+
+<section id="skills">
     <h2>Technical Skills</h2>
-    <p>SQL | Python | Excel | Power BI | Tableau</p>
 
-    <h2>Contact</h2>
-    <p>Email: fathimanidhapk70@gmail.com</p>
+    <div class="skills">
+        <span>SQL</span>
+        <span>Python</span>
+        <span>Power BI</span>
+        <span>Excel</span>
+        <span>Tableau</span>
+        <span>PostgreSQL</span>
+        <span>MySQL</span>
+        <span>Data Cleaning</span>
+        <span>Data Visualisation</span>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <p>
+        I'm interested in opportunities where I can
+        apply my analytical and technical skills.
+    </p>
+
+    <p>
+        Email:
+        <a href="mailto:fathimanidhapk70@gmail.com">
+            fathimanidhapk70@gmail.com
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>©️ 2026 Fathima Nidha | Data Analyst Portfolio</p>
+</footer>
 
 </body>
 </html>
